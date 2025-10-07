@@ -15,10 +15,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-export const metadata: Metadata = {
-  title: "Admin Dashboard",
-  description: "Modern admin dashboard with authentication",
-    generator: 'v0.app'
+export const metadata = {
+  title: "ShopHup",
+  description: "Modern e-commerce platform",
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({

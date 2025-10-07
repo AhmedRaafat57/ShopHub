@@ -3,6 +3,14 @@ import { AuthGuard } from "@/components/auth-guard"
 import { AdminSidebar } from "@/components/admin-sidebar"
 import { AdminNavbar } from "@/components/admin-navbar"
 
+export const metadata = {
+  title: "ShopHup — Admin Dashboard",
+  description: "Manage users, data, and settings efficiently.",
+  icons: {
+    icon: "/Admin_favicon.ico",
+  },
+}
+
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
     <AuthGuard>
